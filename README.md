@@ -21,5 +21,5 @@
                                         entity谁都不依赖，独立的
                                         
                                         
-# father-logbak分支
+# father-logback分支
 说明：该分支集成了logback,将项目运行产生的日志分类存储。dev环境下：将trace级别及以上的日志输出到控制台；prod环境下：将info级别及以上的日志分别存到info，warn，error日志文件。项目中的logback-spring.xml文件是个模板，其他项目可直接复制运用。参考博客：https://www.jianshu.com/p/360a0bf06e52
